@@ -10,6 +10,16 @@ public class Clase1 {
 		System.out.println("Escribe una frase");
 
 		String frase = sc.nextLine();
+		
+		Scanner src= new Scanner(System.in);
+		System.out.println("Introduce un numero");
+		int numero=src.nextInt();
+		int factorial=1;
+		
+		for (int i=2;i<=numero;i++) {
+		factorial=factorial * i;	
+		}
+	System.out.println("El factorial del número "+Integer.toString(numero)+ " es " +Integer.toString(factorial));
 
 		System.out.println("Escribe una letra");
 
