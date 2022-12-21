@@ -50,7 +50,7 @@ public class Clase1 {
 		
 		System.out.printf("%.0f segundos son %.0f horas, %.0f minutos y %.0f segundos.", segundosAux, horas, minutos, segundos);
 		
-	}
+	} 
 	
 	public static void main(String[] args) {
 
