@@ -7,8 +7,6 @@ public class Clase1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println();
-
 		System.out.println("Escribe una frase");
 
 		String frase = sc.nextLine();
