@@ -10,10 +10,9 @@ public class Clase1 {
 		System.out.println("Escribe una frase");
 
 		String frase = sc.nextLine();
-		
-		Scanner src= new Scanner(System.in);
+
 		System.out.println("Introduce un numero");
-		int numero=src.nextInt();
+		int numero=sc.nextInt();
 		int factorial=1;
 		
 		for (int i=2;i<=numero;i++) {
