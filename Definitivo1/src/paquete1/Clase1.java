@@ -14,11 +14,13 @@ public class Clase1 {
 		
 		segundos = entrada.nextInt();
 		
+		final double segundosAux = segundos;
+		
 		return segundos;
 		
 	}
 	
-	public static void pasarAHoras (double segundos) {
+	public static void pasarAHoras (double segundos, double segundosAux) {
 		
 		double minutos = 0;
 		
@@ -46,7 +48,7 @@ public class Clase1 {
 			}
 		}
 		
-		System.out.printf(segundos + " son %.0f horas, %.0f minutos y %.0f.", horas, minutos, segundos);
+		System.out.printf("%.0f segundos son %.0f horas, %.0f minutos y %.0f segundos.", segundosAux, horas, minutos, segundos);
 		
 	}
 	
@@ -56,7 +58,7 @@ public class Clase1 {
 		
 		segundos = pedirDatos(segundos);
 		
-		pasarAHoras(segundos);
+		pasarAHoras(segundos, segundos);
 
 	}
 
