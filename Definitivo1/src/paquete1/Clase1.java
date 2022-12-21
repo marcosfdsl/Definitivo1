@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Clase1 {
 
+	//hola
 	public static void main(String[] args) {
 		final String ANSI_RESET = "\u001B[0m";
 		final String ANSI_YELLOW = "\u001B[33m";
