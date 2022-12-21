@@ -14,8 +14,6 @@ public class Clase1 {
 		
 		segundos = entrada.nextInt();
 		
-		final double segundosAux = segundos;
-		
 		return segundos;
 		
 	}
